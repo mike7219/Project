@@ -1,0 +1,32 @@
+---
+title: "HVAC Electrical Efficiency"
+author: "Michael Martin"
+date: "November 16, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+## HVAC Electrical Eficiency
+## 1.) What problem do you want to solve? 
+Residential HVAC equipment is often inefficient and misused. The goal is to find the fixable variables that lead to the greatest inefficiencies. 
+
+## 2.) Who is your client and why do they care about this problem? What will your client do or decide based on your analysis? 
+My clients are HVAC contractors, and wholesalers. They care about the true causes  of inefficiencies because the analysis will give them tools to market and sell more efficient equipment, and accessories. Most high efficient products are more expensive so it would give them a tool to increase their gross revenue. 
+
+## 3.) What data will you be using and how you will acquire it? 
+I have a  data set from the 2009 (RECS) Recreational Energy Conservation Survey.This data set was acquired on www.kaggle.com. This details over 900 variables that factor into residential electricity costs. 
+
+##4.) In brief, Outline your approach. 
+The goal is to make a regression in which the dependent variable is electrical usage on HVAC equipment and the independent variables are component and usage factors. Some of those include age of equipment, use of high efficiency thermostats, ...etc. 
+
+##5.) What are you deliverables? 
+The deliverables would be the expected change in electricity costs for certain variables. Individually how much each variable helps/ hurts efficiency.
+
+
+
+
